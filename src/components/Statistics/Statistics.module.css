@@ -1,0 +1,22 @@
+.statistics {
+    background-color: gray;
+    padding: 50px 30px;
+}
+.title {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.statList {
+    display: flex;
+    flex-direction: row;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 20px 30px;
+    color: white;
+}

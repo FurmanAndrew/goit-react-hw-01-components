@@ -1,0 +1,37 @@
+.profileList {
+    padding: 50px 0px;
+    background-color: rgb(235, 225, 225);
+}
+.description {
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.avatar {
+    margin: 20px;
+}
+
+.name {
+    margin: 20px;
+}
+
+.tag {
+    margin: 20px;
+}
+
+
+.stats {
+    display: flex;
+    flex-direction: row;
+}
+
+.itemStatsProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 20px 30px;
+    background-color: rgb(239, 240, 240);
+
+}

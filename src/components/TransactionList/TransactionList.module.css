@@ -1,0 +1,19 @@
+table {
+    text-align: center;
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 30px;
+}
+
+
+
+tr:nth-child(2n) {
+    background-color: rgb(133, 197, 136);
+}
+
+thead tr {
+    color: white;
+    background-color: aqua;
+}

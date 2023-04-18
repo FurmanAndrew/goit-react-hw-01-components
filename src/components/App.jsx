@@ -1,9 +1,19 @@
+
+import user from './library/user'
+import statistics from './library/data'
+import friends from './library/friends'
+import transactions from './library/transactions'
+import {Profile} from './Profile/Profile'
+import { Statistics } from './Statistics/Statistics'
+import { Friends } from './FriendsList/FriendsList'
+import { TransactionList } from './TransactionList/TransactionList'
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
+        height: '5000',
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
@@ -11,6 +21,10 @@ export const App = () => {
       }}
     >
       React homework template
+      <Profile props={user}></Profile>
+      <Statistics title='dsvs' stats={statistics}></Statistics>
+      <Friends friends={friends}></Friends>
+      <TransactionList transactionHistory={transactions}></TransactionList>
     </div>
   );
 };
