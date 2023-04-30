@@ -1,8 +1,8 @@
 
-import user from './library/user'
-import statistics from './library/data'
-import friends from './library/friends'
-import transactions from './library/transactions'
+import user from '../library/user.json'
+import statistics from '../library/data.json'
+import friends from '../library/friends.json'
+import transactions from '../library/transactions.json'
 import {Profile} from './Profile/Profile'
 import { Statistics } from './Statistics/Statistics'
 import { Friends } from './FriendsList/FriendsList'
